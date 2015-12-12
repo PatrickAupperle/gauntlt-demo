@@ -1,4 +1,5 @@
 TEST vuln-44.attack
+UT CS 361 Fall 2015
 
 This test checks for the vulnerability in webgoat titled Off-by-One Overflows under the Buffer Overflows section.
 
@@ -32,4 +33,4 @@ It will return a
   $ python attack.py 
   ```
 
-  This Gauntlt test was written by Patrick Aupperle and Ousek Son from team Admin on Thu, 10 Dec 2015 
+  This Gauntlt test was written by Patrick Aupperle and Ousek Son from team Admin  in on Thu, 10 Dec 2015 
