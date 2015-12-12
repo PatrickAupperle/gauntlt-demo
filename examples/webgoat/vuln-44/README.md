@@ -2,6 +2,14 @@ TEST vuln-44.attack
 
 This test checks for the vulnerability in webgoat titled Off-by-One Overflows under the Buffer Overflows section.
 
+This test can be run with the rest of the tests in the repo by running "gauntlt" in the base of the repo, or it 
+can be run alone by running
+```
+gauntlt examples/webgoat/vuln-44/vuln-44.attack
+```
+from the base of the repo or calling the attack.py script directly.
+
+
 It will return a
  - 1 (error) if the vulnerability is present
  - 0 (success) if the vulnerability is fixed (aka not present)
