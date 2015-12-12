@@ -1,5 +1,6 @@
-TEST vuln-44.attack
 UT CS 361 Fall 2015
+
+TEST vuln-44.attack
 
 This test checks for the vulnerability in webgoat titled Off-by-One Overflows under the Buffer Overflows section.
 
